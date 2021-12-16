@@ -45,7 +45,7 @@ const Search = ({properties}) => {
     );
 };
 
-export async function getServerSideProps({query}){
+export async function getServerSideProps({ query }){
         const purpose = query.purpose || "for-rent";
         const rentFrequency = query.rentFrequency || "yearly";
         const minPrice = query.minPrice || "0";
