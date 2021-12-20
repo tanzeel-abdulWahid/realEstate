@@ -1,0 +1,5 @@
+-next server side rendering
+-progress bar at top
+-query param
+-Data filtering
+-dynamic routing
